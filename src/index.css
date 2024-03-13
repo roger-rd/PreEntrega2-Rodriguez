@@ -1,0 +1,33 @@
+body {
+    height: 100%vh;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20220216/pngtree-black-business-wire-drawing-texture-e-commerce-promotion-background-image_971678.jpg'); /* Reemplaza 'ruta/de/la/imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el elemento body */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+    background-position: center; /* Centra la imagen de fondo */
+    background-color: rgb(66, 66, 66); /* Color de fondo de respaldo si la imagen no se carga o no cubre toda la pantalla */
+}
+
+/* Resto de tu CSS aquí */
+/* #home, #contact, #notfound {
+    height: 100%;
+} */
+#navbar, footer {
+    background-color: rgba(35, 32, 31, 0.815);
+}
+#footer {
+    background-color: rgba(35, 32, 31, 0.815);
+}
+.btn {
+    background-color: rgba(90, 106, 161, 0.815);
+}
+
+
+h1,h2,h6,h4{
+    color: white;
+}
+
+span{
+    color: rgb(247, 247, 247);
+}
+
