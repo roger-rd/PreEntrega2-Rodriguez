@@ -1,8 +1,8 @@
 import "../assets/css/detalleProductc.css";
 
 import { useNavigate, useParams } from "react-router-dom"
-import { useOperationsContext } from "../context/OperationsContext"
-import { useUserContext } from "../context/UserContext"
+import { useOperationsContext } from "../context/CartContext"
+import { useUserContext } from "../context/ItemListContext"
 
 
 import ButtonAdd from "../components/ButtonAdd"
@@ -35,7 +35,7 @@ export default function PlatoDetail() {
                                     <div className="d-flex justify-content-end gap-3">
                                         <ButtonAdd idProduct={item.id} />
                                         <button className="btn btn-secondary" onClick={() =>
-                                            navigate("/Product")
+                                            navigate("/Catalogo")
                                         }>Volver 🏠</button>
                                     </div>
                                 </div>

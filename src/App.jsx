@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Home from "./view/Home";
 import Contact from "./view/Contact";
 import Car from "./view/Car";
-import Product from './view/Product';
+import Catalogo from './view/Catalogo';
 import DetalleProduc from './view/DetalleProducto'
 
 
@@ -21,7 +21,7 @@ export default function App() {
         <Route  path= "/"  element={<Home/>}  />
         <Route  path= "/contact" element={<Contact/>}/>
         <Route  path= "/car"     element={<Car/>}/>
-        <Route  path= "/product"     element={<Product/>}/>
+        <Route  path= "/Catalogo"     element={<Catalogo/>}/>
         <Route path="/detalleProduct/:id" element={<DetalleProduc />} />
         <Route  path= "/*"      element={<NotFound/>}/>
       </Routes>

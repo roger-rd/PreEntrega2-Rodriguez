@@ -4,9 +4,11 @@
     gap: 2rem;
     margin: 5%;
   
-
   }
   
+  .stock{
+    color: rgba(187, 4, 4, 0.622);
+  }
   .text-muted {
     text-align: center;
     margin-top: 25px;

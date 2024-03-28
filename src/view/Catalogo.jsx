@@ -1,11 +1,11 @@
 import React from "react";
-import { useUserContext } from "../context/UserContext";
+import { useUserContext } from "../context/ItemListContext";
 import ButtonAdd from "../components/ButtonAdd";
 import { useNavigate } from "react-router-dom";
 
-import "../assets/css/product.css";
+import "../assets/css/catalogo.css";
 
-export default function Menu() {
+export default function Catalogo() {
     const { products } = useUserContext();
     const navigate = useNavigate()
 
@@ -25,6 +25,8 @@ export default function Menu() {
 
                                     <h5 className="text-muted">$ {item.price}</h5>
                                     <h5 className="text-muted">👨🏼‍💼 {item.cantidad}</h5>
+                                    <h5 className="text-muted"><span className="stock">Stock</span>  {item.stock}</h5>
+
                                     <div className="buttonProduct">
                                         <button className="btn btn-secondary" onClick={() => {
                                             navigate(`/DetalleProduct/${item.id}`);
