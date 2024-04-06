@@ -1,4 +1,4 @@
-# 2 PreEntrega en React
+#Entrega en React
 
 Este proyecto es una aplicación web de una tienda online desarrollada con React.js. Proporciona funcionalidades como ver productos, agregar productos al carrito de compras, ver detalles de productos y proceder al pago.
 
